@@ -20,7 +20,7 @@ public class DataController {
     }
 
     @GetMapping("/start/{sts}")
-    public String start(@PathVariable Boolean sts) {
+    public String start(@PathVariable boolean sts) {
         if(sts) {
             logger.debug("Started");
             return  "started";

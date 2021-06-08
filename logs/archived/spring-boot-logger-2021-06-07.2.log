@@ -1,0 +1,6 @@
+INFO 2021-06-07 18:03:45,966 [main] 61 - Started LombokLoggingApplication in 3.667 seconds (JVM running for 4.515)
+INFO 2021-06-07 18:07:29,026 [main] 55 - Starting LombokLoggingApplication using Java 1.8.0_292 on aniruddha with PID 27115 (/home/aniruddha/projects/fullstack-training/lombok-logging/target/classes started by aniruddha in /home/aniruddha/projects/fullstack-training/lombok-logging)
+DEBUG 2021-06-07 18:07:29,033 [main] 56 - Running with Spring Boot v2.5.0, Spring v5.3.7
+INFO 2021-06-07 18:07:29,034 [main] 663 - No active profile set, falling back to default profiles: default
+INFO 2021-06-07 18:07:31,299 [main] 61 - Started LombokLoggingApplication in 3.265 seconds (JVM running for 4.258)
+INFO 2021-06-07 18:07:31,317 [main] 11 - data published

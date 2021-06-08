@@ -1,4 +1,23 @@
-ERROR 2021-06-08 15:06:32,627 [main] 29 - Locked
+INFO 2021-06-08 14:10:28,021 [main] 55 - Starting LombokLoggingApplicationTests using Java 11.0.10 on aniruddha with PID 15081 (started by aniruddha in /home/aniruddha/projects/fullstack-training/lombok-logging)
+DEBUG 2021-06-08 14:10:28,030 [main] 56 - Running with Spring Boot v2.5.0, Spring v5.3.7
+INFO 2021-06-08 14:10:28,034 [main] 663 - No active profile set, falling back to default profiles: default
+INFO 2021-06-08 14:10:28,979 [main] 61 - Started LombokLoggingApplicationTests in 1.093 seconds (JVM running for 7.158)
+INFO 2021-06-08 14:11:40,728 [main] 55 - Starting DataControllerTests using Java 11.0.10 on aniruddha with PID 15190 (started by aniruddha in /home/aniruddha/projects/fullstack-training/lombok-logging)
+DEBUG 2021-06-08 14:11:40,730 [main] 56 - Running with Spring Boot v2.5.0, Spring v5.3.7
+INFO 2021-06-08 14:11:40,734 [main] 663 - No active profile set, falling back to default profiles: default
+INFO 2021-06-08 14:11:42,871 [main] 61 - Started DataControllerTests in 2.846 seconds (JVM running for 5.127)
+INFO 2021-06-08 14:11:43,496 [main] 18 - Reading Data
+DEBUG 2021-06-08 14:11:43,579 [main] 25 - Started
+INFO 2021-06-08 14:11:43,702 [main] 55 - Starting LombokLoggingApplicationTests using Java 11.0.10 on aniruddha with PID 15190 (started by aniruddha in /home/aniruddha/projects/fullstack-training/lombok-logging)
+DEBUG 2021-06-08 14:11:43,702 [main] 56 - Running with Spring Boot v2.5.0, Spring v5.3.7
+INFO 2021-06-08 14:11:43,705 [main] 663 - No active profile set, falling back to default profiles: default
+INFO 2021-06-08 14:11:44,524 [main] 61 - Started LombokLoggingApplicationTests in 0.884 seconds (JVM running for 6.781)
+INFO 2021-06-08 14:46:32,126 [main] 55 - Starting DataControllerTests using Java 11.0.10 on aniruddha with PID 15961 (started by aniruddha in /home/aniruddha/projects/fullstack-training/lombok-logging)
+DEBUG 2021-06-08 14:46:32,129 [main] 56 - Running with Spring Boot v2.5.0, Spring v5.3.7
+INFO 2021-06-08 14:46:32,143 [main] 663 - No active profile set, falling back to default profiles: default
+INFO 2021-06-08 14:46:34,596 [main] 61 - Started DataControllerTests in 3.87 seconds (JVM running for 7.625)
+INFO 2021-06-08 14:46:35,266 [main] 18 - Reading Data
+ERROR 2021-06-08 14:46:35,473 [main] 29 - Locked
 java.lang.RuntimeException: Data Locked
 	at com.ani.logging.lombok.DataController.start(DataController.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

@@ -1,4 +1,13 @@
-ERROR 2021-06-08 15:06:32,627 [main] 29 - Locked
+INFO 2021-06-08 14:47:26,974 [main] 55 - Starting LombokLoggingApplicationTests using Java 11.0.10 on aniruddha with PID 16105 (started by aniruddha in /home/aniruddha/projects/fullstack-training/lombok-logging)
+DEBUG 2021-06-08 14:47:26,995 [main] 56 - Running with Spring Boot v2.5.0, Spring v5.3.7
+INFO 2021-06-08 14:47:26,998 [main] 663 - No active profile set, falling back to default profiles: default
+INFO 2021-06-08 14:47:28,201 [main] 61 - Started LombokLoggingApplicationTests in 1.342 seconds (JVM running for 7.641)
+INFO 2021-06-08 14:48:34,457 [main] 55 - Starting DataControllerTests using Java 11.0.10 on aniruddha with PID 16228 (started by aniruddha in /home/aniruddha/projects/fullstack-training/lombok-logging)
+DEBUG 2021-06-08 14:48:34,460 [main] 56 - Running with Spring Boot v2.5.0, Spring v5.3.7
+INFO 2021-06-08 14:48:34,465 [main] 663 - No active profile set, falling back to default profiles: default
+INFO 2021-06-08 14:48:36,564 [main] 61 - Started DataControllerTests in 2.819 seconds (JVM running for 5.357)
+INFO 2021-06-08 14:48:37,230 [main] 18 - Reading Data
+ERROR 2021-06-08 14:48:37,312 [main] 29 - Locked
 java.lang.RuntimeException: Data Locked
 	at com.ani.logging.lombok.DataController.start(DataController.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

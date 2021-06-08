@@ -1,4 +1,13 @@
-ERROR 2021-06-08 15:06:32,627 [main] 29 - Locked
+INFO 2021-06-08 14:09:39,826 [main] 55 - Starting LombokLoggingApplicationTests using Java 11.0.10 on aniruddha with PID 14886 (started by aniruddha in /home/aniruddha/projects/fullstack-training/lombok-logging)
+DEBUG 2021-06-08 14:09:39,871 [main] 56 - Running with Spring Boot v2.5.0, Spring v5.3.7
+INFO 2021-06-08 14:09:39,876 [main] 663 - No active profile set, falling back to default profiles: default
+INFO 2021-06-08 14:09:40,937 [main] 61 - Started LombokLoggingApplicationTests in 1.202 seconds (JVM running for 6.899)
+INFO 2021-06-08 14:10:24,957 [main] 55 - Starting DataControllerTests using Java 11.0.10 on aniruddha with PID 15081 (started by aniruddha in /home/aniruddha/projects/fullstack-training/lombok-logging)
+DEBUG 2021-06-08 14:10:24,960 [main] 56 - Running with Spring Boot v2.5.0, Spring v5.3.7
+INFO 2021-06-08 14:10:24,972 [main] 663 - No active profile set, falling back to default profiles: default
+INFO 2021-06-08 14:10:27,032 [main] 61 - Started DataControllerTests in 2.781 seconds (JVM running for 5.211)
+INFO 2021-06-08 14:10:27,724 [main] 18 - Reading Data
+ERROR 2021-06-08 14:10:27,799 [main] 29 - Locked
 java.lang.RuntimeException: Data Locked
 	at com.ani.logging.lombok.DataController.start(DataController.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -97,3 +106,4 @@ java.lang.RuntimeException: Data Locked
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+DEBUG 2021-06-08 14:10:27,828 [main] 25 - Started
